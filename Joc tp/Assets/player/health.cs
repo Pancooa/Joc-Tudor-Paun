@@ -5,6 +5,8 @@ using UnityEngine;
 public class health : MonoBehaviour
 {
     public bool alive;
+    public Rigidbody2D corpplayer;
+    public float velocityx;
     public Collider2D colo;
     public Vector2 checkpoint;
     public Transform player;
@@ -17,6 +19,7 @@ public class health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        velocityx = corpplayer.velocity.x;
         if (alive == false)
         {
             transform.position = new Vector2(checkpoint.x, checkpoint.y);

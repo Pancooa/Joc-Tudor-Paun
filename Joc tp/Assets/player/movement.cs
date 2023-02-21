@@ -7,6 +7,7 @@ public class movement : MonoBehaviour
     
     public Rigidbody2D corp;
    public  Collider2D colidplayer;
+    public health scripthelth;
     public dashendscript dshscript;
     public Transform corpus;
     public float jumptoken;
@@ -107,7 +108,12 @@ public class movement : MonoBehaviour
             dashendloc.x = dshlocver.x;
 
         }
-        if (shouldbedash == true)
+        if (scripthelth.alive == false)
+        {
+            shouldbedash = false;
+            corp.gravityScale = gravscale;
+        }
+        if (shouldbedash == true & scripthelth.alive == true)
         {
             transform.position = Vector2.MoveTowards(transform.position, dashendloc, dashtime * Time.deltaTime);
             corp.gravityScale = 0;

@@ -19,10 +19,17 @@ public class picior : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        isgrounded = true;
+        if (collision.gameObject.layer == 8)
+        {
+            isgrounded = true;
+        }
+        
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        isgrounded=false;
+        if (collision.gameObject.layer == 8)
+        {
+            isgrounded = false;
+        }
     }
 }
