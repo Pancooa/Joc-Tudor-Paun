@@ -6,6 +6,7 @@ public class movement : MonoBehaviour
 {
     
     public Rigidbody2D corp;
+    public Animator animator;
    public  Collider2D colidplayer;
     public health scripthelth;
     public dashendscript dshscript;
@@ -43,8 +44,8 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
 
+        animator.SetFloat("speed",Mathf.Abs(corp.velocity.x));
         corppos.y = corp.position.y;
         corppos.x = corp.position.x;
        
