@@ -41,6 +41,7 @@ public class movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ceilingcheck.isallowedtouncrouch = true;
         horiz = Input.GetAxisRaw("Horizontal");
         movespeed = mersspeed;
     }
