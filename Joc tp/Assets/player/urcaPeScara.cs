@@ -7,7 +7,6 @@ public class urcaPeScara : MonoBehaviour
     public scara urcascara;
     public Rigidbody2D corp;
     public float miscare;
-    public bool test;
     public bool apasE;
     void Start()
     {
@@ -16,7 +15,7 @@ public class urcaPeScara : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.E) == true)
+        if (Input.GetKeyUp(KeyCode.E) == true & urcascara.conexiune==true)
         {
             apasE = true;
         }
@@ -24,8 +23,7 @@ public class urcaPeScara : MonoBehaviour
         if (apasE==true & urcascara.conexiune==true)
 
         {
-            corp.velocity = new Vector2(0,0);
-            test = true;
+            corp.velocity = new Vector2(corp.velocity.x,0);
 
         }
 

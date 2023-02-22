@@ -128,10 +128,12 @@ public class movement : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
         {
             colidplayer.isTrigger = true;
+            animator.SetBool("iscrouching", true);
         }
         if (Input.GetKeyUp(KeyCode.S) == true)
         {
             colidplayer.isTrigger = false;
+            animator.SetBool("iscrouching", false);
         }
        
 

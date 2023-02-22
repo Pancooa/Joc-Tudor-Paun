@@ -306,7 +306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155773093}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.19, y: 0.80971575, z: -2.862206}
+  m_LocalPosition: {x: 0, y: 0.80971575, z: -2.862206}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 160879735}
@@ -408,7 +408,6 @@ MonoBehaviour:
   urcascara: {fileID: 1355790125}
   corp: {fileID: 155773096}
   miscare: 12
-  test: 0
   apasE: 0
 --- !u!1 &160879734
 GameObject:
@@ -1356,6 +1355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   conexiune: 0
+  plyrscarasctipt: {fileID: 155773101}
 --- !u!61 &1355790126
 BoxCollider2D:
   m_ObjectHideFlags: 0
