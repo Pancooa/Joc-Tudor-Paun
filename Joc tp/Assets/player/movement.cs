@@ -6,6 +6,7 @@ public class movement : MonoBehaviour
 {
     
     public Rigidbody2D corp;
+    public ceilingcheck ceilingcheck;
     public Animator animator;
    public  Collider2D colidplayer;
     public health scripthelth;
@@ -15,7 +16,9 @@ public class movement : MonoBehaviour
     public float jumph;
     public Rigidbody2D picior;
     public picior script;
-    public float movespeed;
+    public float crouchspeeds;//asta e variablia care determina viteza pe crouch
+    public float mersspeed;//asta e vaiabila care determina viteza mersului
+    private float movespeed;
     private float horiz;
     public bool isdashing;
     public bool stopdashing;
@@ -31,6 +34,7 @@ public class movement : MonoBehaviour
     public LayerMask layertohit;
     public bool shouldbedash;
     public bool isfacingright;
+    public bool wanttouncrouch;
 
 
 
@@ -38,23 +42,28 @@ public class movement : MonoBehaviour
     void Start()
     {
         horiz = Input.GetAxisRaw("Horizontal");
-           
+        movespeed = mersspeed;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        animator.SetFloat("speed",Mathf.Abs(corp.velocity.x));
+        
         corppos.y = corp.position.y;
         corppos.x = corp.position.x;
        
 
         
-
+        if (Input.GetKey(KeyCode.S) == true)
+        {
+            movespeed = crouchspeeds;
+        }
+ 
         if (Input.GetKey(KeyCode.D)==true)
         {
             corp.velocity = new Vector2(1*movespeed,corp.velocity.y);
+            animator.SetFloat("speed", 1);
             gameObject.transform.localScale = new Vector3(1, 1, 1);
             RaycastHit2D dash = Physics2D.Raycast(corppos, corpus.right, dashdistance, layertohit);
             Debug.DrawLine(corp.transform.position, dash.point, Color.blue);
@@ -73,6 +82,7 @@ public class movement : MonoBehaviour
         if (Input.GetKey(KeyCode.A) == true)
         {
             corp.velocity = new Vector2(-1*movespeed, corp.velocity.y);
+            animator.SetFloat("speed", 1);
             gameObject.transform.localScale = new Vector3(-1, 1, 1);
             RaycastHit2D dash = Physics2D.Raycast(corppos, corpus.right*-1, dashdistance, layertohit);
             Debug.DrawLine(corp.transform.position, dash.point, Color.blue);
@@ -95,6 +105,7 @@ public class movement : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.A) ||Input.GetKeyUp(KeyCode.D))
         {
             corp.velocity = new Vector2(0, corp.velocity.y);
+            animator.SetFloat("speed", 0);
         }
         if (Input.GetKeyDown(KeyCode.Space) == true &script.isgrounded==true)
         {
@@ -129,11 +140,18 @@ public class movement : MonoBehaviour
         {
             colidplayer.isTrigger = true;
             animator.SetBool("iscrouching", true);
+           
         }
         if (Input.GetKeyUp(KeyCode.S) == true)
         {
+            wanttouncrouch = true;
+        }
+        if (wanttouncrouch== true & ceilingcheck.isallowedtouncrouch==true)
+        {
+            movespeed = mersspeed;
             colidplayer.isTrigger = false;
             animator.SetBool("iscrouching", false);
+            wanttouncrouch = false;
         }
        
 
