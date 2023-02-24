@@ -8,7 +8,7 @@ public class ceilingcheck : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        isallowedtouncrouch = true;
     }
 
     // Update is called once per frame

@@ -352,7 +352,7 @@ MonoBehaviour:
   corppos: {x: 0, y: 0, z: 0}
   dashspeed: 0
   dashdistance: 70
-  dashtime: 50
+  dashtime: 30
   gravscale: 5
   layertohit:
     serializedVersion: 2
@@ -471,7 +471,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.07791987, y: -1.6772264}
+  m_Offset: {x: -0.14410365, y: -1.6772264}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -482,7 +482,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.53247994, y: 0.06806874}
+  m_Size: {x: 1.0216641, y: 0.06806874}
   m_EdgeRadius: 0
 --- !u!114 &160879737
 MonoBehaviour:
@@ -529,7 +529,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.007229984, y: 0.009643316}
+  m_Offset: {x: 0.007229984, y: 0.005033992}
   m_SpriteTilingProperty:
     border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
     pivot: {x: 0.5, y: 0.5}
@@ -540,7 +540,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.17844057, y: 0.13510597}
+  m_Size: {x: 0.17844057, y: 0.12588732}
   m_EdgeRadius: 0
 --- !u!212 &225758093
 SpriteRenderer:
@@ -2051,7 +2051,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.022085428}
+  m_Offset: {x: -0.47544116, y: -0.022085428}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2062,7 +2062,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.5866523}
+  m_Size: {x: 0.049317718, y: 2.5866523}
   m_EdgeRadius: 0
 --- !u!114 &1879828177
 MonoBehaviour:
@@ -2080,7 +2080,7 @@ MonoBehaviour:
   player: {fileID: 155773097}
   playr: {x: 0, y: 0}
   dashorig: {x: 0, y: 0}
-  testspped: 30
+  testspped: 50
   ca: 0
 --- !u!1 &2067071181
 GameObject:

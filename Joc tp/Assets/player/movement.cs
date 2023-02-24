@@ -123,11 +123,13 @@ public class movement : MonoBehaviour
         }
         if (scripthelth.alive == false)
         {
+            animator.SetBool("isdashing", false);
             shouldbedash = false;
             corp.gravityScale = gravscale;
         }
         if (shouldbedash == true & scripthelth.alive == true)
         {
+            animator.SetBool("isdashing" , true);
             transform.position = Vector2.MoveTowards(transform.position, dashendloc, dashtime * Time.deltaTime);
             corp.gravityScale = 0;
       
@@ -135,6 +137,7 @@ public class movement : MonoBehaviour
         if (corppos == dashendloc)
         {
             shouldbedash = false;
+            animator.SetBool("isdashing", false);
             corp.gravityScale = gravscale;
         }
         if (Input.GetKey(KeyCode.S))
