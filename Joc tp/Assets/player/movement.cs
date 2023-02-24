@@ -53,8 +53,17 @@ public class movement : MonoBehaviour
         
         corppos.y = corp.position.y;
         corppos.x = corp.position.x;
-       
 
+        if (script.isgrounded == true)
+        {
+            animator.SetBool("isjumping", false);
+
+        }
+        else
+        {
+            animator.SetBool("isjumping", true);
+        }
+        animator.SetFloat("yveloc", corp.velocity.y);
         
         if (Input.GetKey(KeyCode.S) == true)
         {
