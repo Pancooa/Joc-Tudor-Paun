@@ -4,33 +4,15 @@ using UnityEngine;
 
 public class ColectareKeye : MonoBehaviour
 {
-
-    public bool playerEAcheie;
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    // Start is called before the first frame update
+    void Start()
     {
-        if (collision.gameObject.layer == 11)
-        {
-            playerEAcheie = true;
+        
+    }
 
-            
-
-            DestroyObject(gameObject);
-        }
-
-
-        void Start()
-        {
-
-        }
-
-
-        void Update()
-        {
-
-        }
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
-    
-    
-   
