@@ -26,8 +26,16 @@ public class health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (player.localScale.x < 0)
+        {
+            deathtext.transform.localScale = new Vector3(-0.03504797f, deathtext.transform.localScale.y, deathtext.transform.localScale.z);
+        }
+        if (player.localScale.x > 0)
+        {
+            deathtext.transform.localScale = new Vector3(0.03504797f, deathtext.transform.localScale.y, deathtext.transform.localScale.z);
+        }
 
-        
+
         velocityx = corpplayer.velocity.x;
         if (alive == false)
         {
