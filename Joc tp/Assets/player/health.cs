@@ -31,6 +31,7 @@ public class health : MonoBehaviour
         velocityx = corpplayer.velocity.x;
         if (alive == false)
         {
+            animator.SetFloat("speed", 0);
             animator.SetBool("isdashing", false);
             animator.SetBool("isalive", false);
             movescript.enabled = false;
