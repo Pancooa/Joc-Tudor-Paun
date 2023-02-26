@@ -35,7 +35,7 @@ public class urcaPeScara : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.R) & urcascara.conexiune == true)
+        if (Input.GetKey(KeyCode.S) & urcascara.conexiune == true)
         
             corp.velocity = new Vector2(0, -miscare);
         }
