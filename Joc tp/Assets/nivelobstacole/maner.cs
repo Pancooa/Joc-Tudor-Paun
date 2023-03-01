@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class killhitbox : MonoBehaviour
+public class maner : MonoBehaviour
 {
-    public health helthscript;
-    public float dmg=3;
+    public bool arcisoff;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,11 +16,13 @@ public class killhitbox : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == 11)
+        if (Input.GetKey(KeyCode.E) == true & collision.gameObject.layer==11)
         {
-            helthscript.hp -= dmg/2 ;
+            arcisoff = true;
         }
+    
     }
+   
 }
