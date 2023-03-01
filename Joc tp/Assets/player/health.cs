@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class health : MonoBehaviour
 {
+    public float hpmax;
+    public float hp;
     public bool alive;
     public Text deathtext;
     public movement movescript;
@@ -17,6 +19,7 @@ public class health : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        hp = hpmax;
         deathtext.enabled = false;
         alive = true;
         animator.SetBool("isalive", true);
@@ -26,8 +29,19 @@ public class health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (player.localScale.x < 0)
+        {
+            deathtext.transform.localScale = new Vector3(-0.03504797f, deathtext.transform.localScale.y, deathtext.transform.localScale.z);
+        }
+        if (player.localScale.x > 0)
+        {
+            deathtext.transform.localScale = new Vector3(0.03504797f, deathtext.transform.localScale.y, deathtext.transform.localScale.z);
+        }
 
-        
+        if (hp < 1)
+        {
+            alive = false;
+        }
         velocityx = corpplayer.velocity.x;
         if (alive == false)
         {
@@ -41,7 +55,8 @@ public class health : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.R) == true)
         {
-            
+            hp = hpmax;
+            movescript.wanttouncrouch = true;
             movescript.enabled = true;
             animator.SetBool("isalive", true);
             transform.position = new Vector2(checkpoint.x, checkpoint.y);
