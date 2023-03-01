@@ -5,7 +5,6 @@ using UnityEngine;
 public class killhitbox : MonoBehaviour
 {
     public health helthscript;
-    public float dmg=3;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +20,7 @@ public class killhitbox : MonoBehaviour
     {
         if (collision.gameObject.layer == 11)
         {
-            helthscript.hp -= dmg/2 ;
+            helthscript.alive = false;
         }
     }
 }
