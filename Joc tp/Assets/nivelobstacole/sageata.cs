@@ -27,7 +27,7 @@ public class sageata : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        if (collision.gameObject.layer == 12)
+        if (collision.gameObject.layer == 13)
         {
             shouldfly = true;
         }
