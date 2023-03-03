@@ -16,6 +16,12 @@ public class health : MonoBehaviour
     public Collider2D colo;
     public Vector2 checkpoint;
     public Transform player;
+    public maner maner;
+    public SpriteRenderer sprite;
+    public float nxthplow;
+    public float timerdmgeffect;
+    public Color dmgcolor;
+    public Color defcolor;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,13 +35,17 @@ public class health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.localScale.x < 0)
+        if (timerdmgeffect > 0.5f)
         {
-            deathtext.transform.localScale = new Vector3(-0.03504797f, deathtext.transform.localScale.y, deathtext.transform.localScale.z);
+            nxthplow -= 1;
+            timerdmgeffect = 0;
+            sprite.color = defcolor;
         }
-        if (player.localScale.x > 0)
+        if (hp == nxthplow)
         {
-            deathtext.transform.localScale = new Vector3(0.03504797f, deathtext.transform.localScale.y, deathtext.transform.localScale.z);
+            timerdmgeffect += 1 * Time.deltaTime;
+            sprite.color = dmgcolor;
+        
         }
 
         if (hp < 1)
@@ -45,6 +55,7 @@ public class health : MonoBehaviour
         velocityx = corpplayer.velocity.x;
         if (alive == false)
         {
+            sprite.color = defcolor;
             animator.SetFloat("speed", 0);
             animator.SetBool("isdashing", false);
             animator.SetBool("isalive", false);
@@ -55,6 +66,10 @@ public class health : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.R) == true)
         {
+            sprite.color = defcolor;
+            nxthplow = hpmax-1;
+            maner.maneroff = false;
+            maner.arcisoff = false;
             hp = hpmax;
             movescript.wanttouncrouch = true;
             movescript.enabled = true;

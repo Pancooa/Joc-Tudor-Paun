@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class killhitbox : MonoBehaviour
+public class iconitaviata : MonoBehaviour
 {
-    public health helthscript;
-    public float dmg=3;
+    public health health;
+    public SpriteRenderer sprite;
+    public float hptinta;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,13 +16,14 @@ public class killhitbox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.layer == 11)
+        if (health.hp < hptinta)
         {
-            helthscript.hp -= dmg ;
+            sprite.enabled = false;
         }
+        else
+        {
+            sprite.enabled = true;
+        }
+
     }
 }
