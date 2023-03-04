@@ -1,18 +1,48 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class NPCText : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public bool texttext;
+    public Text DialogNpc;
+    public Transform pozitie;
+
+   
     void Start()
     {
-        
+        DialogNpc.enabled = false;
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (Input.GetKey(KeyCode.V) == true & collision.gameObject.layer == 11 )
+        {
+            DialogNpc.enabled = true;
+            texttext = true;
+
+
+
+
+
+
+
+        }
+    }
+
+
+
+
+
+
+
 }
+
+
