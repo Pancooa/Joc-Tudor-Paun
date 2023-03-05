@@ -8,6 +8,7 @@ public class NPCText : MonoBehaviour
     public bool texttext;
     public Text DialogNpc;
     public Transform pozitie;
+    public bool TextVorbit;
 
    
     void Start()
@@ -23,19 +24,25 @@ public class NPCText : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (Input.GetKey(KeyCode.V) == true & collision.gameObject.layer == 11 )
+        if (Input.GetKeyDown(KeyCode.V) == true & collision.gameObject.layer == 11 )
         {
             DialogNpc.enabled = true;
             texttext = true;
-
-
-
-
-
+            TextVorbit = true;
 
 
         }
+
+        if (TextVorbit == true & collision.gameObject.layer == 11 & Input.GetKeyDown(KeyCode.P)   ) 
+        {
+            DialogNpc.enabled = false;
+
+        } 
+
+
     }
+
+
 
 
 
