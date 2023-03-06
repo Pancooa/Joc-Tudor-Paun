@@ -4583,7 +4583,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: salut, ce faci, esti acasaaaaaaaaaaaa?
+  m_Text: salut, ce faci
 --- !u!222 &1661917157
 CanvasRenderer:
   m_ObjectHideFlags: 0
