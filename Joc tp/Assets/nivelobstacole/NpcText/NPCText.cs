@@ -10,13 +10,13 @@ public class NPCText : MonoBehaviour
     public Transform pozitie;
     public bool TextVorbit;
     public Image CarcasaDialog;
-   
+    public AudioSource bell;
     void Start()
     {
         DialogNpc.enabled = false;
         CarcasaDialog.enabled = false;
-
-    }
+        bell.enabled = false;
+}
 
    
     void Update()
@@ -32,6 +32,7 @@ public class NPCText : MonoBehaviour
             texttext = true;
             TextVorbit = true;
             CarcasaDialog.enabled = true;
+            bell.enabled = true;
 
 
 
@@ -41,6 +42,7 @@ public class NPCText : MonoBehaviour
         {
             DialogNpc.enabled = false;
             CarcasaDialog.enabled = false;
+            bell.enabled = false;
         } 
 
 
