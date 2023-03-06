@@ -9,11 +9,13 @@ public class NPCText : MonoBehaviour
     public Text DialogNpc;
     public Transform pozitie;
     public bool TextVorbit;
-
+    public Image CarcasaDialog;
    
     void Start()
     {
         DialogNpc.enabled = false;
+        CarcasaDialog.enabled = false;
+
     }
 
    
@@ -29,6 +31,8 @@ public class NPCText : MonoBehaviour
             DialogNpc.enabled = true;
             texttext = true;
             TextVorbit = true;
+            CarcasaDialog.enabled = true;
+
 
 
         }
@@ -36,7 +40,7 @@ public class NPCText : MonoBehaviour
         if (TextVorbit == true & collision.gameObject.layer == 11 & Input.GetKeyDown(KeyCode.P)   ) 
         {
             DialogNpc.enabled = false;
-
+            CarcasaDialog.enabled = false;
         } 
 
 
