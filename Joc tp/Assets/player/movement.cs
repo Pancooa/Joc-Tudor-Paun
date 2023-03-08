@@ -36,6 +36,9 @@ public class movement : MonoBehaviour
     public bool isfacingright;
     public bool wanttouncrouch;
     public bool stopdash;
+    public float timerdash;
+    public float cooldowndash;
+    public bool dshnotcooldown;
 
 
 
@@ -123,6 +126,18 @@ public class movement : MonoBehaviour
             corp.velocity = Vector2.up*jumph;
             
         }
+        if (timerdash < cooldowndash)
+        {
+            timerdash += 1 * Time.deltaTime;
+        }
+        if (timerdash > cooldowndash)
+        {
+            dshnotcooldown = true;
+        }
+        else
+        {
+            shouldbedash = false;
+        }
 
         if (Input.GetKeyDown(KeyCode.Q) == true)
         {
@@ -137,19 +152,22 @@ public class movement : MonoBehaviour
             shouldbedash = false;
             corp.gravityScale = gravscale;
         }
-        if (shouldbedash == true & scripthelth.alive == true)
+        if (shouldbedash == true & scripthelth.alive == true&dshnotcooldown==true)
         {
             corp.velocity = new Vector2(corp.velocity.x, 0);
             animator.SetBool("isdashing" , true);
             transform.position = Vector2.MoveTowards(transform.position, dashendloc, dashtime * Time.deltaTime);
             corp.gravityScale = 0;
             animator.SetFloat("yveloc", 0);
+
             
 
         }
         if(corppos == dashendloc)
         {
             stopdash = true;
+            timerdash = 0;
+            dshnotcooldown = false;
         }
         if (stopdash==true)
         {
