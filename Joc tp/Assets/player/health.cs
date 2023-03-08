@@ -66,6 +66,7 @@ public class health : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.R) == true)
         {
+            corpplayer.velocity = new Vector2(0, 0);
             sprite.color = defcolor;
             nxthplow = hpmax-1;
             maner.maneroff = false;

@@ -1,0 +1,1723 @@
+fileFormatVersion: 2
+guid: a97cf78181b353a4babed724cde1e46c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6600581236295973028
+    second: wood tiles_0
+  - first:
+      213: -7916464980805636961
+    second: wood tiles_1
+  - first:
+      213: -504364332611374162
+    second: wood tiles_2
+  - first:
+      213: 4013005039557567608
+    second: wood tiles_3
+  - first:
+      213: -7115776266043379207
+    second: wood tiles_4
+  - first:
+      213: 6573735144698015393
+    second: wood tiles_5
+  - first:
+      213: 806532334443815526
+    second: wood tiles_6
+  - first:
+      213: -6276185013525140013
+    second: wood tiles_7
+  - first:
+      213: -8880699279615594103
+    second: wood tiles_8
+  - first:
+      213: 2330341112527593697
+    second: wood tiles_9
+  - first:
+      213: -2219680311205182094
+    second: wood tiles_10
+  - first:
+      213: -459418217056941940
+    second: wood tiles_11
+  - first:
+      213: -4273398929408290524
+    second: wood tiles_12
+  - first:
+      213: 2415043619265058652
+    second: wood tiles_13
+  - first:
+      213: 4358152318335806478
+    second: wood tiles_14
+  - first:
+      213: 5352522432134667385
+    second: wood tiles_15
+  - first:
+      213: 6701911783881849366
+    second: wood tiles_16
+  - first:
+      213: 4283339931032915846
+    second: wood tiles_17
+  - first:
+      213: -9093709612557105553
+    second: wood tiles_18
+  - first:
+      213: 3301154585959968105
+    second: wood tiles_19
+  - first:
+      213: -2081060140466055578
+    second: wood tiles_20
+  - first:
+      213: -8537743529804707955
+    second: wood tiles_21
+  - first:
+      213: 6347790747886595931
+    second: wood tiles_22
+  - first:
+      213: 3496789060135465937
+    second: wood tiles_23
+  - first:
+      213: -6347977661316293399
+    second: wood tiles_24
+  - first:
+      213: 6835409509612607147
+    second: wood tiles_25
+  - first:
+      213: 5400056469874118231
+    second: wood tiles_26
+  - first:
+      213: 7755732629364121352
+    second: wood tiles_27
+  - first:
+      213: 6358644960733855244
+    second: wood tiles_28
+  - first:
+      213: 8320950685646350526
+    second: wood tiles_29
+  - first:
+      213: 1445807551035875756
+    second: wood tiles_30
+  - first:
+      213: 7111246798569646664
+    second: wood tiles_31
+  - first:
+      213: 7650748929128921838
+    second: wood tiles_32
+  - first:
+      213: 1132184990280057722
+    second: wood tiles_33
+  - first:
+      213: 581597735915273767
+    second: wood tiles_34
+  - first:
+      213: 3223687681881859289
+    second: wood tiles_35
+  - first:
+      213: -8800892029813932113
+    second: wood tiles_36
+  - first:
+      213: -7457589374399960470
+    second: wood tiles_37
+  - first:
+      213: 3371469970909515513
+    second: wood tiles_38
+  - first:
+      213: 3895185194085562414
+    second: wood tiles_39
+  - first:
+      213: -8309867364549111008
+    second: wood tiles_40
+  - first:
+      213: -3937669831846843862
+    second: wood tiles_41
+  - first:
+      213: 5683881967375730786
+    second: wood tiles_42
+  - first:
+      213: 8143164932995499565
+    second: wood tiles_43
+  - first:
+      213: -5938769223636720796
+    second: wood tiles_44
+  - first:
+      213: -1120287988903628679
+    second: wood tiles_45
+  - first:
+      213: 3606508548947542927
+    second: wood tiles_46
+  - first:
+      213: 6681718177104077074
+    second: wood tiles_47
+  - first:
+      213: -2597320127398644364
+    second: wood tiles_48
+  - first:
+      213: -1443220262378045298
+    second: wood tiles_49
+  - first:
+      213: -9093866601753522969
+    second: wood tiles_50
+  - first:
+      213: -6765789583711025333
+    second: wood tiles_51
+  - first:
+      213: 8468925345431416947
+    second: wood tiles_52
+  - first:
+      213: 716070236925931661
+    second: wood tiles_53
+  - first:
+      213: -8055149715186131772
+    second: wood tiles_54
+  - first:
+      213: -857409125929442139
+    second: wood tiles_55
+  - first:
+      213: 605417123895925928
+    second: wood tiles_56
+  - first:
+      213: 8151946882730364113
+    second: wood tiles_57
+  - first:
+      213: -3343902919190799580
+    second: wood tiles_58
+  - first:
+      213: 5373714045357911347
+    second: wood tiles_59
+  - first:
+      213: -2970861238033312743
+    second: wood tiles_60
+  - first:
+      213: -3078629305613318224
+    second: wood tiles_61
+  - first:
+      213: 1201575385899352299
+    second: wood tiles_62
+  - first:
+      213: -10799026076587380
+    second: wood tiles_63
+  - first:
+      213: 7745893480670931004
+    second: wood tiles_64
+  - first:
+      213: 1450393649700641628
+    second: wood tiles_65
+  - first:
+      213: 6103915342330633603
+    second: wood tiles_66
+  - first:
+      213: -2385417825130497667
+    second: wood tiles_67
+  - first:
+      213: 857220616246050954
+    second: wood tiles_68
+  - first:
+      213: 4749357813109414127
+    second: wood tiles_69
+  - first:
+      213: 5566684301762530039
+    second: wood tiles_70
+  - first:
+      213: -8146111253166609506
+    second: wood tiles_71
+  - first:
+      213: 3807204581492940762
+    second: wood tiles_72
+  - first:
+      213: -5576471326297064
+    second: wood tiles_73
+  - first:
+      213: 8540827118849443786
+    second: wood tiles_74
+  - first:
+      213: 8285669280573981359
+    second: wood tiles_75
+  - first:
+      213: -1965766726549527192
+    second: wood tiles_76
+  - first:
+      213: -7000426213887285273
+    second: wood tiles_77
+  - first:
+      213: 2973830526924199086
+    second: wood tiles_78
+  - first:
+      213: 2250798572894984185
+    second: wood tiles_79
+  - first:
+      213: -7344438541603771724
+    second: wood tiles_80
+  - first:
+      213: -2950936144938240119
+    second: wood tiles_81
+  - first:
+      213: 6433067998014275679
+    second: wood tiles_82
+  - first:
+      213: 2797407157947492899
+    second: wood tiles_83
+  - first:
+      213: -2998389229237163290
+    second: wood tiles_84
+  - first:
+      213: -117169591948645645
+    second: wood tiles_85
+  - first:
+      213: -8786182983212377018
+    second: wood tiles_86
+  - first:
+      213: 1575728220242088261
+    second: wood tiles_87
+  - first:
+      213: -6606042602547990406
+    second: wood tiles_88
+  - first:
+      213: -5928598840874741264
+    second: wood tiles_89
+  - first:
+      213: 3151354700254210654
+    second: wood tiles_90
+  - first:
+      213: -1309146608829147436
+    second: wood tiles_91
+  - first:
+      213: -1007499734858233656
+    second: wood tiles_92
+  - first:
+      213: 3878325513941762792
+    second: wood tiles_93
+  - first:
+      213: -4146290219418156225
+    second: wood tiles_94
+  - first:
+      213: -7623385444604679664
+    second: wood tiles_95
+  - first:
+      213: -8558919968669977733
+    second: wood tiles_96
+  - first:
+      213: -2772574663929938711
+    second: wood tiles_97
+  - first:
+      213: 4064770250894215355
+    second: wood tiles_98
+  - first:
+      213: -5027623602921079937
+    second: wood tiles_99
+  - first:
+      213: 650866141458193149
+    second: wood tiles_100
+  - first:
+      213: 4420242470827115979
+    second: wood tiles_101
+  - first:
+      213: -8194768497260624390
+    second: wood tiles_102
+  - first:
+      213: 5595492804592969010
+    second: wood tiles_103
+  - first:
+      213: 4448549992495135725
+    second: wood tiles_104
+  - first:
+      213: 6134203539196381550
+    second: wood tiles_105
+  - first:
+      213: -5228838091433608227
+    second: wood tiles_106
+  - first:
+      213: -6670510725745156289
+    second: wood tiles_107
+  - first:
+      213: -1974393025149516657
+    second: wood tiles_108
+  - first:
+      213: 528188655730134157
+    second: wood tiles_109
+  - first:
+      213: 6517200807659951764
+    second: wood tiles_110
+  - first:
+      213: -4765593354628483221
+    second: wood tiles_111
+  - first:
+      213: 4663469326818098651
+    second: wood tiles_112
+  - first:
+      213: 2120263125740493425
+    second: wood tiles_113
+  - first:
+      213: 7219107827869978309
+    second: wood tiles_114
+  - first:
+      213: -4277679527583311418
+    second: wood tiles_115
+  - first:
+      213: -9025060675802476478
+    second: wood tiles_116
+  - first:
+      213: 1700080264855832776
+    second: wood tiles_117
+  - first:
+      213: -1895030647876021053
+    second: wood tiles_118
+  - first:
+      213: -5638760197549301887
+    second: wood tiles_119
+  - first:
+      213: -6208478564868909440
+    second: wood tiles_120
+  - first:
+      213: -8699623833313877011
+    second: wood tiles_121
+  - first:
+      213: -6398267043660851307
+    second: wood tiles_122
+  - first:
+      213: 7035090294244552026
+    second: wood tiles_123
+  - first:
+      213: -1237815512321268876
+    second: wood tiles_124
+  - first:
+      213: 8580444056216760843
+    second: wood tiles_125
+  - first:
+      213: 3776753043371657764
+    second: wood tiles_126
+  - first:
+      213: 1014829507063572337
+    second: wood tiles_127
+  - first:
+      213: 1044426686886322546
+    second: wood tiles_128
+  - first:
+      213: 6711366528173734150
+    second: wood tiles_129
+  - first:
+      213: -6593898048058392981
+    second: wood tiles_130
+  - first:
+      213: 1849216819280377084
+    second: wood tiles_131
+  - first:
+      213: 4661340165206276127
+    second: wood tiles_132
+  - first:
+      213: 4232724038447338016
+    second: wood tiles_133
+  - first:
+      213: -4755536394797878081
+    second: wood tiles_134
+  - first:
+      213: -8972736627898140647
+    second: wood tiles_135
+  - first:
+      213: 8414503344502774781
+    second: wood tiles_136
+  - first:
+      213: 1223567235232415913
+    second: wood tiles_137
+  - first:
+      213: 8516273737542034279
+    second: wood tiles_138
+  - first:
+      213: 7942119466169340072
+    second: wood tiles_139
+  - first:
+      213: 30462017321227295
+    second: wood tiles_140
+  - first:
+      213: -9126198882873965948
+    second: wood tiles_141
+  - first:
+      213: -6327008143601747468
+    second: wood tiles_142
+  - first:
+      213: 6635335726308784444
+    second: wood tiles_143
+  - first:
+      213: -907554651140649604
+    second: wood tiles_144
+  - first:
+      213: -4621484924373113784
+    second: wood tiles_145
+  - first:
+      213: 1311265729577034304
+    second: wood tiles_146
+  - first:
+      213: -6195242530839905924
+    second: wood tiles_147
+  - first:
+      213: -2671356334544770217
+    second: wood tiles_148
+  - first:
+      213: 135414966317365549
+    second: wood tiles_149
+  - first:
+      213: -3709960417030744704
+    second: wood tiles_150
+  - first:
+      213: 3506228228682803637
+    second: wood tiles_151
+  - first:
+      213: -7150080803415025842
+    second: wood tiles_152
+  - first:
+      213: -8698079432698810841
+    second: wood tiles_153
+  - first:
+      213: -8728532740463360892
+    second: wood tiles_154
+  - first:
+      213: -4036491746292928206
+    second: wood tiles_155
+  - first:
+      213: -1952035267161554730
+    second: wood tiles_156
+  - first:
+      213: 6687615920353345658
+    second: wood tiles_157
+  - first:
+      213: -3812019412500335360
+    second: wood tiles_158
+  - first:
+      213: -5632727505881997174
+    second: wood tiles_159
+  - first:
+      213: 6090434976448935165
+    second: wood tiles_160
+  - first:
+      213: -1436557771100597380
+    second: wood tiles_161
+  - first:
+      213: -7035716658875902600
+    second: wood tiles_162
+  - first:
+      213: -8345303812388009971
+    second: wood tiles_163
+  - first:
+      213: -523156829936992188
+    second: wood tiles_164
+  - first:
+      213: -3090910285821056101
+    second: wood tiles_165
+  - first:
+      213: -704522843030844563
+    second: wood tiles_166
+  - first:
+      213: 365682521063291807
+    second: wood tiles_167
+  - first:
+      213: 2136069822309809895
+    second: wood tiles_168
+  - first:
+      213: -1311180208510766775
+    second: wood tiles_169
+  - first:
+      213: 9102932783803334972
+    second: wood tiles_170
+  - first:
+      213: 8023880327002671985
+    second: wood tiles_171
+  - first:
+      213: -4356386206495734127
+    second: wood tiles_172
+  - first:
+      213: -3008919083945109654
+    second: wood tiles_173
+  - first:
+      213: -748870785389081127
+    second: wood tiles_174
+  - first:
+      213: 6666696642534494733
+    second: wood tiles_175
+  - first:
+      213: 2023505078112133043
+    second: wood tiles_176
+  - first:
+      213: -8338969223672097775
+    second: wood tiles_177
+  - first:
+      213: 6805309335007967407
+    second: wood tiles_178
+  - first:
+      213: 3281631186071043808
+    second: wood tiles_179
+  - first:
+      213: -6363133495567374449
+    second: wood tiles_180
+  - first:
+      213: -7205643710258358482
+    second: wood tiles_181
+  - first:
+      213: 6223938320072557712
+    second: wood tiles_182
+  - first:
+      213: -4197132475835116621
+    second: wood tiles_183
+  - first:
+      213: -8288730424110426107
+    second: wood tiles_184
+  - first:
+      213: -4760662020051263275
+    second: wood tiles_185
+  - first:
+      213: 1608018013855717335
+    second: wood tiles_186
+  - first:
+      213: 3082716242574619172
+    second: wood tiles_187
+  - first:
+      213: 4063169207908566493
+    second: wood tiles_188
+  - first:
+      213: -7417174609060188868
+    second: wood tiles_189
+  - first:
+      213: 7799201463527693558
+    second: wood tiles_190
+  - first:
+      213: -778956317961753223
+    second: wood tiles_191
+  - first:
+      213: 8441347386270908801
+    second: wood tiles_192
+  - first:
+      213: 7972347390154342221
+    second: wood tiles_193
+  - first:
+      213: 3209510324862095243
+    second: wood tiles_194
+  - first:
+      213: -6440210026481745126
+    second: wood tiles_195
+  - first:
+      213: -4193175065719743808
+    second: wood tiles_196
+  - first:
+      213: -7811814895805048162
+    second: wood tiles_197
+  - first:
+      213: 9029568693024872179
+    second: wood tiles_198
+  - first:
+      213: -526011371736734453
+    second: wood tiles_199
+  - first:
+      213: -4504935914210884065
+    second: wood tiles_200
+  - first:
+      213: 5732767589199650916
+    second: wood tiles_201
+  - first:
+      213: 1250716810894265889
+    second: wood tiles_202
+  - first:
+      213: -8546917294559630839
+    second: wood tiles_203
+  - first:
+      213: -1140029531086082664
+    second: wood tiles_204
+  - first:
+      213: 1953329647790016561
+    second: wood tiles_205
+  - first:
+      213: 7524341313092896080
+    second: wood tiles_206
+  - first:
+      213: -2413781377280551307
+    second: wood tiles_207
+  - first:
+      213: -5584259151786270871
+    second: wood tiles_208
+  - first:
+      213: 8015645080207403838
+    second: wood tiles_209
+  - first:
+      213: 453544420424445578
+    second: wood tiles_210
+  - first:
+      213: -7794753129581742061
+    second: wood tiles_211
+  - first:
+      213: 4679988694769515140
+    second: wood tiles_212
+  - first:
+      213: 127383665250505470
+    second: wood tiles_213
+  - first:
+      213: -3432302829520964554
+    second: wood tiles_214
+  - first:
+      213: -5940160526154972338
+    second: wood tiles_215
+  - first:
+      213: 542144667456528237
+    second: wood tiles_216
+  - first:
+      213: 3338326568322890072
+    second: wood tiles_217
+  - first:
+      213: 7626188935437037053
+    second: wood tiles_218
+  - first:
+      213: 3490502983186724217
+    second: wood tiles_219
+  - first:
+      213: -3749082615413044089
+    second: wood tiles_220
+  - first:
+      213: 64740794647360854
+    second: wood tiles_221
+  - first:
+      213: -3729201557247875026
+    second: wood tiles_222
+  - first:
+      213: -3966711212098622435
+    second: wood tiles_223
+  - first:
+      213: 115495292435503321
+    second: wood tiles_224
+  - first:
+      213: 1603522885642411633
+    second: wood tiles_225
+  - first:
+      213: 4513965134528680565
+    second: wood tiles_226
+  - first:
+      213: -7221451264267094739
+    second: wood tiles_227
+  - first:
+      213: -8701528597464240937
+    second: wood tiles_228
+  - first:
+      213: 2817522597403296828
+    second: wood tiles_229
+  - first:
+      213: -7814096406598545460
+    second: wood tiles_230
+  - first:
+      213: -18471984290453892
+    second: wood tiles_231
+  - first:
+      213: 3826767824715174948
+    second: wood tiles_232
+  - first:
+      213: -3946005477908742887
+    second: wood tiles_233
+  - first:
+      213: -7919001507895719060
+    second: wood tiles_234
+  - first:
+      213: -101541972250387680
+    second: wood tiles_235
+  - first:
+      213: 6950036655067987948
+    second: wood tiles_236
+  - first:
+      213: -7791019751054825569
+    second: wood tiles_237
+  - first:
+      213: 6351521391965534338
+    second: wood tiles_238
+  - first:
+      213: 6591447084523623225
+    second: wood tiles_239
+  - first:
+      213: 6114947333190972930
+    second: wood tiles_240
+  - first:
+      213: 4369093846771495134
+    second: wood tiles_241
+  - first:
+      213: 457736217899775986
+    second: wood tiles_242
+  - first:
+      213: 4927454172805959925
+    second: wood tiles_243
+  - first:
+      213: 4092215753940718365
+    second: wood tiles_244
+  - first:
+      213: -2744673573734244614
+    second: wood tiles_245
+  - first:
+      213: -6578572329253574415
+    second: wood tiles_246
+  - first:
+      213: -740558416354306547
+    second: wood tiles_247
+  - first:
+      213: -2887462618607143510
+    second: wood tiles_248
+  - first:
+      213: -563800553330373022
+    second: wood tiles_249
+  - first:
+      213: 2770451218271694061
+    second: wood tiles_250
+  - first:
+      213: 7115651996595935397
+    second: wood tiles_251
+  - first:
+      213: -6225855294060821238
+    second: wood tiles_252
+  - first:
+      213: 4102592817944607416
+    second: wood tiles_253
+  - first:
+      213: -7461207187942632677
+    second: wood tiles_254
+  - first:
+      213: 7226488883259969446
+    second: wood tiles_255
+  - first:
+      213: 793333328161914548
+    second: wood tiles_256
+  - first:
+      213: 4943834699050289341
+    second: wood tiles_257
+  - first:
+      213: 5499183560968592338
+    second: wood tiles_258
+  - first:
+      213: -7158733169038209956
+    second: wood tiles_259
+  - first:
+      213: 5066713130117624413
+    second: wood tiles_260
+  - first:
+      213: -3071761254510312353
+    second: wood tiles_261
+  - first:
+      213: -5846945997991964220
+    second: wood tiles_262
+  - first:
+      213: -8825186309540795329
+    second: wood tiles_263
+  - first:
+      213: 1394521043714557955
+    second: wood tiles_264
+  - first:
+      213: -818092110794890048
+    second: wood tiles_265
+  - first:
+      213: 6638944018888654478
+    second: wood tiles_266
+  - first:
+      213: 1467753903769752430
+    second: wood tiles_267
+  - first:
+      213: 7845348152440028916
+    second: wood tiles_268
+  - first:
+      213: -8852362479778767953
+    second: wood tiles_269
+  - first:
+      213: -4263609188534160153
+    second: wood tiles_270
+  - first:
+      213: 8594209584618803740
+    second: wood tiles_271
+  - first:
+      213: 3673540959278539988
+    second: wood tiles_272
+  - first:
+      213: 6832624987676415541
+    second: wood tiles_273
+  - first:
+      213: 1418116224425385059
+    second: wood tiles_274
+  - first:
+      213: 6693443689051576035
+    second: wood tiles_275
+  - first:
+      213: -3563904850262698018
+    second: wood tiles_276
+  - first:
+      213: -2405088966115193685
+    second: wood tiles_277
+  - first:
+      213: 188436166004638197
+    second: wood tiles_278
+  - first:
+      213: -4495770795045902288
+    second: wood tiles_279
+  - first:
+      213: 5746041839823056551
+    second: wood tiles_280
+  - first:
+      213: 9098791185638061305
+    second: wood tiles_281
+  - first:
+      213: 3675949338629706964
+    second: wood tiles_282
+  - first:
+      213: -5092038929747126719
+    second: wood tiles_283
+  - first:
+      213: 6903122703102385121
+    second: wood tiles_284
+  - first:
+      213: 3122752046325200912
+    second: wood tiles_285
+  - first:
+      213: -7797259124815543450
+    second: wood tiles_286
+  - first:
+      213: 5859498149225520921
+    second: wood tiles_287
+  - first:
+      213: 8468244669153369755
+    second: wood tiles_288
+  - first:
+      213: -5144708020892471693
+    second: wood tiles_289
+  - first:
+      213: -5623875179466441449
+    second: wood tiles_290
+  - first:
+      213: -1314914145809884611
+    second: wood tiles_291
+  - first:
+      213: -3868227131522213889
+    second: wood tiles_292
+  - first:
+      213: -4471078198556669791
+    second: wood tiles_293
+  - first:
+      213: 8895526405050249537
+    second: wood tiles_294
+  - first:
+      213: -4550500783282769802
+    second: wood tiles_295
+  - first:
+      213: 5636666319368269506
+    second: wood tiles_296
+  - first:
+      213: 2717976909820574175
+    second: wood tiles_297
+  - first:
+      213: 649878322102799258
+    second: wood tiles_298
+  - first:
+      213: -8247686164094229778
+    second: wood tiles_299
+  - first:
+      213: -639672433266911254
+    second: wood tiles_300
+  - first:
+      213: -2983582245924280468
+    second: wood tiles_301
+  - first:
+      213: 3009113053935607793
+    second: wood tiles_302
+  - first:
+      213: 3036605151295873863
+    second: wood tiles_303
+  - first:
+      213: 5778987737979073176
+    second: wood tiles_304
+  - first:
+      213: -9072973627585906352
+    second: wood tiles_305
+  - first:
+      213: 1397523365798451900
+    second: wood tiles_306
+  - first:
+      213: -7272382488809459655
+    second: wood tiles_307
+  - first:
+      213: 6271799605958578084
+    second: wood tiles_308
+  - first:
+      213: 4612829632891759002
+    second: wood tiles_309
+  - first:
+      213: -4310977501212780949
+    second: wood tiles_310
+  - first:
+      213: 3861514381125126472
+    second: wood tiles_311
+  - first:
+      213: 5473160912698557407
+    second: wood tiles_312
+  - first:
+      213: 6357630326443897601
+    second: wood tiles_313
+  - first:
+      213: 7820360388638570930
+    second: wood tiles_314
+  - first:
+      213: 3851865195219513221
+    second: wood tiles_315
+  - first:
+      213: 4151393650044825082
+    second: wood tiles_316
+  - first:
+      213: 9037151227751720681
+    second: wood tiles_317
+  - first:
+      213: 984467113999401267
+    second: wood tiles_318
+  - first:
+      213: -5419756097613938621
+    second: wood tiles_319
+  - first:
+      213: -7684828236275312871
+    second: wood tiles_320
+  - first:
+      213: -2268620121222789972
+    second: wood tiles_321
+  - first:
+      213: -683247887215236504
+    second: wood tiles_322
+  - first:
+      213: -9131936719285482647
+    second: wood tiles_323
+  - first:
+      213: 1300044931738042759
+    second: wood tiles_324
+  - first:
+      213: -2791928418438998325
+    second: wood tiles_325
+  - first:
+      213: -2435543342554911448
+    second: wood tiles_326
+  - first:
+      213: 5914747497370042341
+    second: wood tiles_327
+  - first:
+      213: 7400031958151541652
+    second: wood tiles_328
+  - first:
+      213: 8017749038911120739
+    second: wood tiles_329
+  - first:
+      213: 5377797746832962236
+    second: wood tiles_330
+  - first:
+      213: -3119838862575753374
+    second: wood tiles_331
+  - first:
+      213: -6715023807734683194
+    second: wood tiles_332
+  - first:
+      213: -4769209207662717620
+    second: wood tiles_333
+  - first:
+      213: 6579495883347883660
+    second: wood tiles_334
+  - first:
+      213: 2602885384569620014
+    second: wood tiles_335
+  - first:
+      213: -2109784921351502664
+    second: wood tiles_336
+  - first:
+      213: -756501271560063268
+    second: wood tiles_337
+  - first:
+      213: -9205287999822736722
+    second: wood tiles_338
+  - first:
+      213: -1686156084174577007
+    second: wood tiles_339
+  - first:
+      213: 2431401637843799836
+    second: wood tiles_340
+  - first:
+      213: -734735323762120441
+    second: wood tiles_341
+  - first:
+      213: 2096824275255927637
+    second: wood tiles_342
+  - first:
+      213: -308478464674488368
+    second: wood tiles_343
+  - first:
+      213: 7940165603230199652
+    second: wood tiles_344
+  - first:
+      213: -4609798272815837212
+    second: wood tiles_345
+  - first:
+      213: 2712495404003032512
+    second: wood tiles_346
+  - first:
+      213: -1593166341120493000
+    second: wood tiles_347
+  - first:
+      213: 5482567043300468171
+    second: wood tiles_348
+  - first:
+      213: -5976313438306329635
+    second: wood tiles_349
+  - first:
+      213: -5767386049294040963
+    second: wood tiles_350
+  - first:
+      213: -4945960376711363704
+    second: wood tiles_351
+  - first:
+      213: -1021391368835367065
+    second: wood tiles_352
+  - first:
+      213: -7682843958589588100
+    second: wood tiles_353
+  - first:
+      213: 3661960679760253050
+    second: wood tiles_354
+  - first:
+      213: -3069979984362611264
+    second: wood tiles_355
+  - first:
+      213: 2103023164933630395
+    second: wood tiles_356
+  - first:
+      213: 2611005766746919073
+    second: wood tiles_357
+  - first:
+      213: 5823264247167531952
+    second: wood tiles_358
+  - first:
+      213: 642374810496866938
+    second: wood tiles_359
+  - first:
+      213: -756273558042924997
+    second: wood tiles_360
+  - first:
+      213: -1385002368141610547
+    second: wood tiles_361
+  - first:
+      213: -77540717657659968
+    second: wood tiles_362
+  - first:
+      213: 3612274965582725208
+    second: wood tiles_363
+  - first:
+      213: 5501370747096820265
+    second: wood tiles_364
+  - first:
+      213: -1024965340909674271
+    second: wood tiles_365
+  - first:
+      213: -2897026015723130979
+    second: wood tiles_366
+  - first:
+      213: -5243692578307011895
+    second: wood tiles_367
+  - first:
+      213: -2750187796026941382
+    second: wood tiles_368
+  - first:
+      213: -5085945512784711769
+    second: wood tiles_369
+  - first:
+      213: -1295702255705206544
+    second: wood tiles_370
+  - first:
+      213: -1641474262779362908
+    second: wood tiles_371
+  - first:
+      213: -2247430813587376862
+    second: wood tiles_372
+  - first:
+      213: 5050451882714170892
+    second: wood tiles_373
+  - first:
+      213: 8670366483201243968
+    second: wood tiles_374
+  - first:
+      213: -4066928677762344391
+    second: wood tiles_0
+  - first:
+      213: 8199531937219300206
+    second: wood tiles_1
+  - first:
+      213: -7708524069256699689
+    second: wood tiles_2
+  - first:
+      213: -4631054631534726945
+    second: wood tiles_3
+  - first:
+      213: -4033855831311305493
+    second: wood tiles_4
+  - first:
+      213: -4852661423228580068
+    second: wood tiles_5
+  - first:
+      213: -1554764591541584992
+    second: wood tiles_6
+  - first:
+      213: 4852155576373702434
+    second: wood tiles_7
+  - first:
+      213: -8157341483519074115
+    second: wood tiles_8
+  - first:
+      213: 204644599555567514
+    second: wood tiles_9
+  - first:
+      213: 7442393692271751030
+    second: wood tiles_10
+  - first:
+      213: -1820358702813454590
+    second: wood tiles_11
+  - first:
+      213: 6658848028685750162
+    second: wood tiles_12
+  - first:
+      213: -8651866653983044946
+    second: wood tiles_13
+  - first:
+      213: 2397341887088892463
+    second: wood tiles_14
+  - first:
+      213: 1595457393234981788
+    second: wood tiles_15
+  - first:
+      213: -7182317673633114930
+    second: wood tiles_16
+  - first:
+      213: -3384588989026483676
+    second: wood tiles_17
+  - first:
+      213: 5699801170800161626
+    second: wood tiles_18
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wood tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a50234aed5f87c0800000000000000
+      internalID: -6600581236295973028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b4d6a9ad69ac170800000000000000
+      internalID: -7916464980805636961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0e7655332d50590800000000000000
+      internalID: -504364332611374162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0f1f759503bbfb0800000000000000
+      internalID: 4013005039557567608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be43d836e7dd408c0800000000000000
+      internalID: -7115776266043379207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f08356522e7acb0800000000000000
+      internalID: 6573735144698015393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abfecb67dd5c6ae0800000000000000
+      internalID: 806532334443815526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f6fa4f9c1565340800000000000000
+      internalID: -6276185013525140013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0a943e32d4bce80800000000000000
+      internalID: -8880699279615594103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f26b5dd2b07d200800000000000000
+      internalID: 2330341112527593697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f2772b1a1b84760800000000000000
+      internalID: -2219680311205182094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f530b8769ccb6e0800000000000000
+      internalID: -459418217056941940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fcf13800bf86c50800000000000000
+      internalID: -4273398929408290524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa0b452e156ee780800000000000000
+      internalID: 2415043619265058652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a1911aeb1154120800000000000000
+      internalID: 4358152318335806478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93ba0acb04342610800000000000000
+      internalID: 5352522432134667385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4961f1128435c90800000000000000
+      internalID: 6701911783881849366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422c06e2f368701d0800000000000000
+      internalID: 4283339931032915846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood tiles_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5336eb47f2c91f40800000000000000
+      internalID: -9093709612557105553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      wood tiles_0: -6600581236295973028
+      wood tiles_1: -7916464980805636961
+      wood tiles_10: -2219680311205182094
+      wood tiles_11: -459418217056941940
+      wood tiles_12: -4273398929408290524
+      wood tiles_13: 2415043619265058652
+      wood tiles_14: 4358152318335806478
+      wood tiles_15: 5352522432134667385
+      wood tiles_16: 6701911783881849366
+      wood tiles_17: 4283339931032915846
+      wood tiles_18: -9093709612557105553
+      wood tiles_2: -504364332611374162
+      wood tiles_3: 4013005039557567608
+      wood tiles_4: -7115776266043379207
+      wood tiles_5: 6573735144698015393
+      wood tiles_6: 806532334443815526
+      wood tiles_7: -6276185013525140013
+      wood tiles_8: -8880699279615594103
+      wood tiles_9: 2330341112527593697
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
