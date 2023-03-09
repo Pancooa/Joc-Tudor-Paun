@@ -25,7 +25,7 @@ public class urcaPeScara : MonoBehaviour
         if (apasE==true & urcascara.conexiune==true)
 
         {
-            corp.velocity = new Vector2(corp.velocity.x,0);
+            corp.velocity = new Vector2(corp.velocity.x,0.9f);
 
         }
 

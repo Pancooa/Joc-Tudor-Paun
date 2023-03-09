@@ -502,7 +502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   urcascara: {fileID: 912967190}
   corp: {fileID: 155773096}
-  miscare: 12
+  miscare: 5
   apasE: 0
   animator: {fileID: 155773100}
 --- !u!114 &155773102
@@ -8415,6 +8415,8 @@ MonoBehaviour:
   transform: {fileID: 2051060197}
   icony: 0
   iconx: 0
+  mcony: 0
+  mconx: 0
 --- !u!212 &2051060199
 SpriteRenderer:
   m_ObjectHideFlags: 0
