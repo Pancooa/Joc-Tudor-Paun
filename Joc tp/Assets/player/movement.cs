@@ -12,11 +12,13 @@ public class movement : MonoBehaviour
     public health scripthelth;
     public dashendscript dshscript;
     public Transform corpus;
+    public Collider2D secplyrhitbox;
     public float jumptoken;
     public float jumph;
     public Rigidbody2D picior;
     public picior script;
     public float crouchspeeds;//asta e variablia care determina viteza pe crouch
+    public bool iscrouching;
     public float mersspeed;//asta e vaiabila care determina viteza mersului
     private float movespeed;
     private float horiz;
@@ -39,7 +41,7 @@ public class movement : MonoBehaviour
     public float timerdash;
     public float cooldowndash;
     public bool dshnotcooldown;
-
+    public bool isindash;
 
 
     // Start is called before the first frame update
@@ -136,10 +138,10 @@ public class movement : MonoBehaviour
         }
         else
         {
-            shouldbedash = false;
+            dshnotcooldown = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.Q) == true)
+        if (Input.GetKeyDown(KeyCode.Q) == true&dshnotcooldown==true&isindash==false&iscrouching==false)
         {
             shouldbedash = true;
             dashendloc.y = dshlocver.y;
@@ -152,8 +154,13 @@ public class movement : MonoBehaviour
             shouldbedash = false;
             corp.gravityScale = gravscale;
         }
+        if(Input.GetKeyDown(KeyCode.Q)==true& shouldbedash == true & scripthelth.alive == true & dshnotcooldown == true)
+        {
+
+        }
         if (shouldbedash == true & scripthelth.alive == true&dshnotcooldown==true)
         {
+            isindash = true;
             corp.velocity = new Vector2(corp.velocity.x, 0);
             animator.SetBool("isdashing" , true);
             transform.position = Vector2.MoveTowards(transform.position, dashendloc, dashtime * Time.deltaTime);
@@ -165,6 +172,7 @@ public class movement : MonoBehaviour
         }
         if(corppos == dashendloc)
         {
+            isindash = false;
             stopdash = true;
             timerdash = 0;
             dshnotcooldown = false;
@@ -181,7 +189,8 @@ public class movement : MonoBehaviour
         {
             colidplayer.isTrigger = true;
             animator.SetBool("iscrouching", true);
-           
+            secplyrhitbox.enabled = false;
+            iscrouching = true;
         }
         if (Input.GetKeyUp(KeyCode.S) == true)
         {
@@ -189,6 +198,8 @@ public class movement : MonoBehaviour
         }
         if (wanttouncrouch== true & ceilingcheck.isallowedtouncrouch==true)
         {
+            iscrouching = false;
+            secplyrhitbox.enabled = true;
             movespeed = mersspeed;
             colidplayer.isTrigger = false;
             animator.SetBool("iscrouching", false);
