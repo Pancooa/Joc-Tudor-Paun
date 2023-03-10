@@ -6,6 +6,7 @@ public class scara : MonoBehaviour
 {
     public bool conexiune;
     public urcaPeScara plyrscarasctipt;
+    public Transform player;
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.layer==11)
