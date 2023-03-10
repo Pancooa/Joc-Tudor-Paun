@@ -41,27 +41,23 @@ public class NPCText : MonoBehaviour
         {
             timervorbit += 1 * Time.deltaTime;
         }
-        if (Input.GetKeyDown(KeyCode.V) == true&isinhitbox==true)
+        if (Input.GetKeyDown(KeyCode.V) == true & isinhitbox==true)
         {
-      
             Nextline();
             liniecurenta += 1;
         }
-        if (Input.GetKeyDown(KeyCode.V) == true & spoken == true&timervorbit>0.1f&isinhitbox==true)
-        {
-           
 
-        }
+
         if (isinhitbox == false)
         {
+            bell.enabled = false;
             liniecurenta = 0;
             CarcasaDialog.enabled = false;
             DialogNpc1.enabled = false;
             DialogNpc2.enabled = false;
             DialogNpc3.enabled = false;
             DialogNpc4.enabled = false;
-            DialogNpc5.enabled = false;
-            bell.enabled = false;
+            
             
         }
 
