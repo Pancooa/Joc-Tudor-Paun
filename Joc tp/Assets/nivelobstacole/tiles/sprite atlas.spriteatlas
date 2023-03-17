@@ -73,6 +73,42 @@ SpriteAtlas:
   - {fileID: -590436741, guid: 5d6fe642c70d8e045b9c4d7255bc0055, type: 3}
   - {fileID: 1562975837, guid: 5d6fe642c70d8e045b9c4d7255bc0055, type: 3}
   - {fileID: 1786342003, guid: 5d6fe642c70d8e045b9c4d7255bc0055, type: 3}
+  - {fileID: -144008806, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 1303046749, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 1037191955, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -668669683, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -44602194, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -623991291, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -1874368687, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -760119564, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -231985626, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 836124601, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -643111382, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -1775227010, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 83591851, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -1317646224, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 1919914346, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 352707562, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -423436186, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 1922518157, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -591113053, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -1849448152, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 446628011, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 1248309260, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -2072221086, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 10309703, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 2094257778, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 772941892, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 1720382178, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 225073118, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -217865632, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 1708241666, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 344558681, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -601948499, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -1327434977, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: 1237735809, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -1290518901, guid: cfb22423de728504b8945b5889e1f981, type: 3}
+  - {fileID: -1496241587, guid: cfb22423de728504b8945b5889e1f981, type: 3}
   m_PackedSpriteNamesToIndex:
   - wood tiles_15
   - wood tiles_14
@@ -97,6 +133,42 @@ SpriteAtlas:
   - scara_1
   - scara_2
   - scara_3
+  - peretespate_28
+  - peretespate_29
+  - peretespate_20
+  - peretespate_21
+  - peretespate_22
+  - peretespate_23
+  - peretespate_33
+  - peretespate_24
+  - peretespate_32
+  - peretespate_25
+  - peretespate_31
+  - peretespate_26
+  - peretespate_30
+  - peretespate_27
+  - peretespate_35
+  - peretespate_34
+  - peretespate_8
+  - peretespate_9
+  - peretespate_2
+  - peretespate_3
+  - peretespate_0
+  - peretespate_1
+  - peretespate_6
+  - peretespate_7
+  - peretespate_4
+  - peretespate_5
+  - peretespate_11
+  - peretespate_10
+  - peretespate_13
+  - peretespate_12
+  - peretespate_15
+  - peretespate_14
+  - peretespate_17
+  - peretespate_16
+  - peretespate_19
+  - peretespate_18
   m_RenderDataMap: {}
   m_Tag: sprite atlas
   m_IsVariant: 0
