@@ -14,7 +14,7 @@ public class dashendscript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        ca = true;
     }
 
     // Update is called once per frame

@@ -154,10 +154,7 @@ public class movement : MonoBehaviour
             shouldbedash = false;
             corp.gravityScale = gravscale;
         }
-        if(Input.GetKeyDown(KeyCode.Q)==true& shouldbedash == true & scripthelth.alive == true & dshnotcooldown == true)
-        {
 
-        }
         if (shouldbedash == true & scripthelth.alive == true&dshnotcooldown==true)
         {
             isindash = true;
