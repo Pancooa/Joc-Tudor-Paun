@@ -4,7 +4,24 @@ using UnityEngine;
 
 public class INVENTAR : MonoBehaviour
 {
-    public bool[] isFull;
-    public GameObject[] slots;
+    public bool full;
+    public SpriteRenderer cheie;
+    private void Start()
+    {
+        cheie.enabled = false;
+    }
+    private void Update()
+    {
+        if (full == true)
+        {
+            cheie.enabled = true;
+        }
+        if (full == false)
+        {
+            cheie.enabled = false;
+        }
+    }
+
+
 
 } 

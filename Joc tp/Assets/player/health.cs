@@ -7,6 +7,10 @@ public class health : MonoBehaviour
 {
     public float hpmax;
     public float hp;
+    public float hpcurent;
+    public bool invincib;
+    public float invincibtimer;
+    public float invincibtimerlimit;
     public bool alive;
     public Text deathtext;
     public movement movescript;
@@ -25,6 +29,7 @@ public class health : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        hpcurent = hpmax; 
         hp = hpmax;
         deathtext.enabled = false;
         alive = true;
@@ -66,8 +71,8 @@ public class health : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.R) == true)
         {
-
-
+            invincib = false;
+            hpcurent = hpmax;
             movescript.timerdash = 0;
             movescript.dshnotcooldown = false;
             movescript.isindash = false;
@@ -85,6 +90,18 @@ public class health : MonoBehaviour
             movescript.stopdash = true;
             deathtext.enabled = false;
         }
+        if (hp < hpcurent)
+        {
+            invincib = true;
+            invincibtimer += 1 * Time.deltaTime;
+        }
+        if (invincibtimer > invincibtimerlimit)
+        {
+            invincib = false;
+            invincibtimer = 0;
+            hpcurent = hp;
+        }
+        
     }
     private void OnTriggerEnter2D(Collider2D colo)
     {

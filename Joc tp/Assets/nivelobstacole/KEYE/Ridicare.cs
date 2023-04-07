@@ -5,41 +5,22 @@ using UnityEngine;
 public class Ridicare : MonoBehaviour {
 
     public INVENTAR inventory;
-    public GameObject itemButton; 
 
 
 
 private void start()
 
 {
-        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<INVENTAR>();
+
 
 }
-    
-void onTriggerEnter2d(Collider2D other)
-{
 
-    if (other.CompareTag("Player"))
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-                             
-        for ( int i = 0; i < inventory.slots.Length; i++)
+        if (collision.gameObject.layer == 11 &inventory.full==false)
         {
-            if  (inventory.isFull[i] == false)
-            {
-                    inventory.isFull[i] = true;
-                    Instantiate(itemButton, inventory.slots[i].transform, false);
-                    Destroy(gameObject);
-                    break;
-            }
+            inventory.full = true;
+            Destroy(gameObject);
         }
     }
-
-}
-
-
-
-    
-
-     
-
 }

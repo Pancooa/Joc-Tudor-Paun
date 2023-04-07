@@ -19,7 +19,7 @@ public class killhitbox : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == 11)
+        if (collision.gameObject.layer == 11 & helthscript.invincib == false)
         {
             helthscript.hp -= dmg ;
         }

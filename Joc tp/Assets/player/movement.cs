@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    
+    public playeraudio playeraudio;
+    public bool atac;
+    public float atactimer;
+    public float atactimerlimit;
+    public atacplyr atacplyr;
     public Rigidbody2D corp;
     public ceilingcheck ceilingcheck;
     public Animator animator;
@@ -42,11 +46,13 @@ public class movement : MonoBehaviour
     public float cooldowndash;
     public bool dshnotcooldown;
     public bool isindash;
+    public bool isjumping;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        playeraudio.playermers.enabled = false;
         ceilingcheck.isallowedtouncrouch = true;
         horiz = Input.GetAxisRaw("Horizontal");
         movespeed = mersspeed;
@@ -56,7 +62,7 @@ public class movement : MonoBehaviour
     void Update()
     {
 
-        
+        isjumping = animator.GetBool("isjumping");
         corppos.y = corp.position.y;
         corppos.x = corp.position.x;
 
@@ -75,7 +81,14 @@ public class movement : MonoBehaviour
         {
             movespeed = crouchspeeds;
         }
- 
+        if (Input.GetKey(KeyCode.D) == true|| Input.GetKey(KeyCode.A) == true)
+        {
+            playeraudio.playermers.enabled = true;
+        }
+        if (script.isgrounded==false|| isdashing == true)
+        {
+            playeraudio.playermers.enabled = false;
+        }
         if (Input.GetKey(KeyCode.D)==true)
         {
             corp.velocity = new Vector2(1*movespeed,corp.velocity.y);
@@ -85,7 +98,6 @@ public class movement : MonoBehaviour
             Debug.DrawLine(corp.transform.position, dash.point, Color.blue);
             dshlocver = dash.point;
             isfacingright = true;
-
         }
         if (Input.GetKeyDown(KeyCode.D) == true)
         {
@@ -95,6 +107,7 @@ public class movement : MonoBehaviour
         {
             dshscript.transform.position = transform.position;
         }
+
         if (Input.GetKey(KeyCode.A) == true)
         {
             corp.velocity = new Vector2(-1*movespeed, corp.velocity.y);
@@ -122,11 +135,19 @@ public class movement : MonoBehaviour
         {
             corp.velocity = new Vector2(0, corp.velocity.y);
             animator.SetFloat("speed", 0);
+            playeraudio.playermers.enabled = false;
         }
-        if (Input.GetKeyDown(KeyCode.Space) == true &script.isgrounded==true)
+        if (Input.GetKeyDown(KeyCode.Space) == true & script.isgrounded==true)
         {
             corp.velocity = Vector2.up*jumph;
-            
+        }
+        if (isjumping == true)
+        {
+            playeraudio.playersaritura.enabled = true;
+        }
+        else
+        {
+            playeraudio.playersaritura.enabled = false;
         }
         if (timerdash < cooldowndash)
         {
@@ -202,8 +223,20 @@ public class movement : MonoBehaviour
             animator.SetBool("iscrouching", false);
             wanttouncrouch = false;
         }
-       
-
+        if (Input.GetKeyDown(KeyCode.F) & isdashing == false)
+        {
+            atac = true;
+        }
+        if (atac == true)
+        {
+            atactimer += 1;
+        }
+        if (atactimer > atactimerlimit)
+        {
+            atac = false;
+            atactimer = 0;
+        }
+        atacplyr.isattacking = atac;
     }
    public void Dash()
     {
